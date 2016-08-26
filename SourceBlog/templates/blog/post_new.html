@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="col-md-8 col-md-offset-3">
+        <h1>Form</h1>
+        <form method="POST" class="post-form" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            {% if user.is_authenticated %}
+                <button type="Submit" class="btn btn-default">Save</button>
+            {% endif %}
+        </form>
+    </div>
+{% endblock content %}
+
