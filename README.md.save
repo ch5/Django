@@ -1,0 +1,13 @@
+# Django
+- Search content
+- Pagination
+- Model Manager
+- Basic Authentication
+- Static Files
+
+
+pip install pillow
+
+#Password Login admin
+- Password : admin
+- Username : admin
