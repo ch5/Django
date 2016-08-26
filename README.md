@@ -1,4 +1,4 @@
-# Django
+# Django 1.8
 - Search content
 - Pagination
 - Model Manager
@@ -8,7 +8,7 @@
 - Dynamic url slug
 
 #require
-- pip install pillow
+- pip install pillow 
 
 #Password Login admin
 - Password : admin
