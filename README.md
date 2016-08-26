@@ -5,8 +5,8 @@
 - Basic Authentication
 - Static Files
 
-requirement:
+- requirement:
 pip install pillow
 
-Password : admin
-Username : admin
+- Password : admin
+- Username : admin
